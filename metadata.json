@@ -1,0 +1,6 @@
+{
+  "name": "Flame International",
+  "description": "An experience that awakens all the senses. Neighbourhood kitchen and cocktail bar at 11330 Santa Monica Blvd, Los Angeles, CA offering artisanal small plates, lunch hub, cabaret nights, and reservations.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

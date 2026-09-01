@@ -1,0 +1,52 @@
+{
+  "name": "Flame International — Kitchen & Bar",
+  "short_name": "Flame Int",
+  "description": "Neighbourhood kitchen and cocktail bar at 11330 Santa Monica Blvd, Los Angeles, CA offering artisanal small plates, lunch hub, cabaret nights, live concerts, and reservations.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#180309",
+  "theme_color": "#180309",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["food", "entertainment", "lifestyle"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Live Events",
+      "short_name": "Events",
+      "description": "Book tickets for live Persian concerts and cabaret",
+      "url": "/#live-events"
+    },
+    {
+      "name": "Reserve Table",
+      "short_name": "Reserve",
+      "description": "Reserve a dining table at Flame International",
+      "url": "/#reserve-space"
+    },
+    {
+      "name": "Dine-In Menu",
+      "short_name": "Menu",
+      "description": "Explore Persian Kababs, Mazzeh, and Craft Cocktails",
+      "url": "/#dine-in"
+    }
+  ]
+}

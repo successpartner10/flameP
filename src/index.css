@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-gold: #d4a359;
+    --color-gold-light: #f2cf8d;
+    --color-gold-dark: #b8863b;
+    --color-burgundy: #4c0e1e;
+    --color-burgundy-dark: #320813;
+    --color-charcoal: #121619;
+  }
+
+  body {
+    font-family: 'Raleway', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #180309;
+    color: #f7f4ed;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #14171a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #39424e;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d4a359;
+  }
+}
+
+.font-script {
+  font-family: 'Great Vibes', 'Caveat', cursive;
+}
+
+.font-hand {
+  font-family: 'Caveat', cursive;
+}
+
+.font-serif {
+  font-family: 'Raleway', Georgia, serif;
+}
+
+.font-display {
+  font-family: 'Raleway', sans-serif;
+}
+
+.font-sans {
+  font-family: 'Raleway', system-ui, sans-serif;
+}
+
+.font-mono {
+  font-family: 'Raleway', monospace;
+}
+
+/* Gold Gradient Text & Accents */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #f7d896 0%, #d4a359 50%, #af7e32 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #d4a359 0%, #b8863b 100%);
+}
+
+.border-gold-glow {
+  border-color: rgba(212, 163, 89, 0.4);
+  box-shadow: 0 0 20px rgba(212, 163, 89, 0.15);
+}
+
+/* Burgundy Wave & Patterns */
+.bg-burgundy-deep {
+  background-color: #4b0b1a;
+  background-image: radial-gradient(circle at 50% 30%, #5d0f22 0%, #3d0714 100%);
+}
+
+/* Subtle steam animation */
+@keyframes steamFlow {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.15;
+  }
+  50% {
+    transform: translateY(-15px) scale(1.08);
+    opacity: 0.35;
+  }
+  100% {
+    transform: translateY(-30px) scale(1.15);
+    opacity: 0;
+  }
+}
+
+.animate-steam {
+  animation: steamFlow 4s ease-in-out infinite;
+}
+

@@ -1,0 +1,103 @@
+<svg viewBox="0 0 260 260" width="260" height="260" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Flame International Official Logo with White Border">
+  <defs>
+    <radialGradient id="flameOrbGrad" cx="42%" cy="40%" r="62%" fx="35%" fy="30%">
+      <stop offset="0%" stopColor="#ff4d2e" />
+      <stop offset="45%" stopColor="#e61616" />
+      <stop offset="78%" stopColor="#b30c14" />
+      <stop offset="100%" stopColor="#690408" />
+    </radialGradient>
+    <radialGradient id="topSheen" cx="50%" cy="15%" r="50%">
+      <stop offset="0%" stopColor="#ffffff" stopOpacity="0.4" />
+      <stop offset="50%" stopColor="#ff8a73" stopOpacity="0.1" />
+      <stop offset="100%" stopColor="#ff2200" stopOpacity="0" />
+    </radialGradient>
+    <linearGradient id="mainFlameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stopColor="#ff3a00" />
+      <stop offset="35%" stopColor="#ff7a00" />
+      <stop offset="70%" stopColor="#ffb800" />
+      <stop offset="100%" stopColor="#fff5a0" />
+    </linearGradient>
+    <linearGradient id="backFlameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stopColor="#d92400" />
+      <stop offset="60%" stopColor="#ff9900" />
+      <stop offset="100%" stopColor="#ffdd6b" />
+    </linearGradient>
+    <linearGradient id="darkBannerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#444950" />
+      <stop offset="12%" stopColor="#25292e" />
+      <stop offset="50%" stopColor="#121417" />
+      <stop offset="85%" stopColor="#1a1d21" />
+      <stop offset="100%" stopColor="#30353d" />
+    </linearGradient>
+    <linearGradient id="flameTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#ffffff" />
+      <stop offset="48%" stopColor="#f4f5f8" />
+      <stop offset="52%" stopColor="#d2d6de" />
+      <stop offset="100%" stopColor="#ffffff" />
+    </linearGradient>
+    <clipPath id="orbCircleClip">
+      <circle cx="130" cy="130" r="120" />
+    </clipPath>
+  </defs>
+
+  <!-- Base Circle -->
+  <circle cx="130" cy="130" r="120" fill="url(#flameOrbGrad)" />
+  <circle cx="130" cy="130" r="120" fill="url(#topSheen)" />
+
+  <!-- Inner Clipped Artwork -->
+  <g clip-path="url(#orbCircleClip)">
+    <path
+      d="M 20 160 C 25 130 45 110 60 120 C 72 128 70 102 85 85 C 98 70 115 50 135 68 C 145 78 148 95 160 82 C 176 65 195 42 215 70 C 230 90 236 125 240 160 Z"
+      fill="url(#backFlameGrad)"
+      opacity="0.85"
+    />
+    <path
+      d="M 25 155 C 32 135 48 118 64 128 C 74 135 78 112 90 98 C 102 82 118 65 132 82 C 142 94 146 110 158 98 C 172 84 186 64 200 86 C 214 108 225 128 235 155 L 235 180 L 25 180 Z"
+      fill="url(#mainFlameGrad)"
+    />
+    <path d="M 40 150 C 44 125 56 100 70 112 C 78 119 78 132 84 140 C 76 132 68 130 64 145 Z" fill="#fff5a0" opacity="0.9" />
+    <path d="M 78 145 C 84 115 100 90 115 105 C 122 112 120 125 126 138 C 118 126 108 122 102 142 Z" fill="#ffffff" opacity="0.95" />
+    <path d="M 125 140 C 135 105 152 75 170 95 C 180 106 180 120 188 135 C 178 122 168 116 160 138 Z" fill="#ffffff" />
+    <path d="M 175 140 C 185 110 202 92 216 112 C 224 124 222 135 228 148 C 220 136 212 132 205 145 Z" fill="#fff5a0" opacity="0.9" />
+    <path d="M 68 95 C 75 82 86 78 92 90 C 86 86 78 88 74 96 Z" fill="#fff9c4" />
+    <path d="M 118 75 C 126 60 140 54 148 68 C 140 64 130 66 126 76 Z" fill="#ffffff" />
+    <path d="M 168 60 C 178 42 196 35 206 54 C 196 48 184 50 178 62 Z" fill="#ffffff" />
+    <path d="M 204 80 C 212 68 222 66 226 78 C 220 74 214 76 210 82 Z" fill="#fff9c4" />
+
+    <text
+      x="130"
+      y="152"
+      text-anchor="middle"
+      fill="url(#flameTextGrad)"
+      font-size="54"
+      font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+      font-weight="900"
+      letter-spacing="2"
+      stroke="#101214"
+      stroke-width="2.5"
+      paint-order="stroke fill"
+    >
+      FLAME
+    </text>
+
+    <line x1="8" y1="158" x2="252" y2="158" stroke="#ffffff" stroke-width="2.5" />
+    <rect x="10" y="159.5" width="240" height="25" fill="url(#darkBannerGrad)" />
+    <line x1="8" y1="185.5" x2="252" y2="185.5" stroke="#ffffff" stroke-width="2.5" />
+    
+    <text
+      x="130"
+      y="178"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="15.5"
+      font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+      font-weight="800"
+      letter-spacing="5"
+    >
+      INTERNATIONAL
+    </text>
+  </g>
+
+  <!-- Crisp White Outer Ring Border -->
+  <circle cx="130" cy="130" r="121" stroke="#ffffff" stroke-width="5.5" fill="none" />
+</svg>
